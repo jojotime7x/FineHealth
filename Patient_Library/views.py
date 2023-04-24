@@ -17,7 +17,7 @@ def contactus(request):
 
 def AllPatient_data(request):
     data = Patient.objects.all()
-    return render(request, 'Allpatientdata.html', {'data': data})
+    return render(request, 'AllPatientdata.html', {'data': data})
 
 
 
